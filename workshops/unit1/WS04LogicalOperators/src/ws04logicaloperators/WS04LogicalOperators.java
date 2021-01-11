@@ -50,7 +50,7 @@ public class WS04LogicalOperators {
         comparison = true;
         System.out.println("not comparison --> " + !comparison);
 
-        System.out.println("Daniel Potosi AND TRUTH TEBLE even numbers -> &&");
+        System.out.println("Daniel Potosi AND TRUTH TEBLE odd numbers -> &&");
         System.out.println("==================================================================");
         
         //Variable
@@ -82,7 +82,6 @@ public class WS04LogicalOperators {
         
         //operation
         System.out.println(" ( " + p2 + " ^ " + q2 + " ) " + (p2 && q2));
-        
         
         //Variable
         boolean p3;
