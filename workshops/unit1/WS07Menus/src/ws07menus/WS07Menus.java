@@ -35,13 +35,37 @@ public class WS07Menus {
                     System.out.println(" the sum is --> " + sum);
                     break;
                 case 2:
-                    System.out.println("The subtraction is");
+                    int addend3;
+                    int addend4;
+                    int substraction;
+                    System.out.println("enter addend 3 -> ");
+                    addend3 = input.nextInt();
+                    System.out.println("enter addend 4 -> ");
+                    addend4 = input.nextInt();
+                    substraction = addend3 - addend4;
+                    System.out.println("The subtraction is --> " + substraction);
                     break;
                 case 3:
-                    System.out.println("The multiplcation is");
+                    int addend5;
+                    int addend6;
+                    int multiplication;
+                    System.out.println("enter addend 5 -> ");
+                    addend5 = input.nextInt();
+                    System.out.println("enter addend 6 -> ");
+                    addend6 = input.nextInt();
+                    multiplication = addend5 * addend6;
+                    System.out.println("The multiplcation is --> " + multiplication);
                     break;
                 case 4:
-                    System.out.println("The division is");
+                    int addend7;
+                    int addend8;
+                    int division;
+                    System.out.println("enter addend 7 -> ");
+                    addend7 = input.nextInt();
+                    System.out.println("enter addend 8 -> ");
+                    addend8 = input.nextInt();
+                    division = addend7 / addend8;
+                    System.out.println("The division is -> " + division);
                     break;
                 case 5:
                     System.out.println("Good Bye my friend");
