@@ -1,4 +1,4 @@
-package hw09.embeddedstructures;
+package hw09embeddedstructures;
 
 import java.util.Scanner;
 
@@ -62,6 +62,6 @@ public class HW09EmbeddedStructures {
             
         } while (option != 'L');
         System.out.println("<---Bye--->");
-     }
+    }
     
 }
