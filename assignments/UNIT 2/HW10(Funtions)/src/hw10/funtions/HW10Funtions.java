@@ -4,22 +4,26 @@ public class HW10Funtions {
 
     public static void main(String[] args) {
         // TODO code application logic here
-        int multiplying = (int) 6.5;
-        int multiplier = (int) 14.15;
+        int n = 0;
+        int multiplying = n;
+        int m = 0;
+        int multiplier = m;
         float result = 0;
         int x = 0;
         int y = 0;
+        multiplying = nextInt();
+        multiplier = nextInt();
         
         //call to multiplyTwoNumbers () function
         result = multiplyTwoNumbers(multiplying, multiplier);
         
-        System.out.println("Result of 6.5 and 14.15 is  -> " + result); //91.975 or ?
+        System.out.println("Result of 6.5 and 14.15 is  -> " + result);
         
         y = f(5);
         System.out.println("5^4 ->" + y);
         
         y = f(-5);
-        System.out.println("-5^4 ->" + y); //625
+        System.out.println("-5^4 ->" + y);
         
         x = -1;
         y = f(x);
@@ -32,8 +36,6 @@ public class HW10Funtions {
         //body of the function
         float result = 0.0F;
         
-        //             6.5      14.15  -> 91.975
-        //result       int       int 
         result =  (float)multiplying * (float)multiplier;
         return result;
         
@@ -53,5 +55,9 @@ public class HW10Funtions {
         y = x * x + 2 * x + 1;
         
         return y;
+    }
+
+    private static int nextInt() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }   
