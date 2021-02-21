@@ -13,7 +13,7 @@ public class WS13Task {
             System.out.println();
             System.out.println(" ======== OPTION MENU ========= ");
             System.out.println(" ======== 1. Diamond         ========= ");
-            System.out.println(" ======== 2. Rhombiod      ========= ");
+            System.out.println(" ======== 2. Triangle      ========= ");
             System.out.println(" ======== 3. Trapeze      ========= ");
             System.out.println(" ___________________________________ ");
             System.out.println(" ENTER A OPTION ");
@@ -28,10 +28,10 @@ public class WS13Task {
                     break;
                 case 2:
                     System.out.println("Enter base");
-                    int base_r =input.nextInt();
+                    int base_s =input.nextInt();
                     System.out.println("Enter height");
-                    int height_r =input.nextInt();
-                    System.out.println(" The Area of Rhomboid is :"+arearhomboid(base_r,height_r));
+                    int height_s =input.nextInt();
+                    System.out.println(" The Area of Triangle is :"+areatriangle(base_s,height_s));
                     break;
                 case 3:
                     System.out.println("Enter the Major Base");
@@ -47,14 +47,15 @@ public class WS13Task {
         } while(option!=4);
     }
         private static int areadiamond(int D, int d) {
-            return(D*d)/2;
-        }
-
-        private static int arearhomboid(int b, int h) {
-            return b*h;
+            return(D*d);
         }
 
         private static int areatrapeze(int B, int b, int h) {
             return ((B+b)/2)*h;
         }
+
+        private static int areatriangle(int b, int h) {
+            return(b*h)/2;
+        
+    }
 }    
