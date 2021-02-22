@@ -1,5 +1,7 @@
 package ws14.arrays;
 
+import java.util.Scanner;
+
 public class WS14Arrays {
 
     public static void main(String[] args) {
@@ -23,6 +25,7 @@ public class WS14Arrays {
             System.out.print("Enter the number of bikes of the warehouse " + (i + 1) + " -> ");
             bikes[i] = input.nextInt();
         }
+        int[] bikesOfTheWarehouse;
 
         for (int bikes : bikesOfTheWarehouse) {
             System.out.println("bikes of warehouse are " + bikes);
@@ -32,12 +35,21 @@ public class WS14Arrays {
             System.out.println("bikes of the warehouse " + (i + 1) + " -> " + bikes[i]);
         }
 
-        for (String bike : bikes) {
+        for (float bike : bikes) {
             System.out.println("type bike -> " + bike);
         }
         
         for (int i = 0; i < weightsByWarehouse.length ; i++) {
+            String[] weightsWarehouse = null;
             System.out.println("weight of warehouse " + (i + 1) + " -> " + weightsWarehouse[i]);
     }
     
 }
+
+    private static class weightsByWarehouse {
+
+        private static int length;
+
+        public weightsByWarehouse() {
+        }
+    }
