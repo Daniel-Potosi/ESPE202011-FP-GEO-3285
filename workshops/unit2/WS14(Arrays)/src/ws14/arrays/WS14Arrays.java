@@ -13,7 +13,7 @@ public class WS14Arrays {
         String leave = "";
         while (!leave.equalsIgnoreCase("===Leave====")) {
             System.out.println(" ====Hello====");
-            System.out.println(" ====My mane is Sandy====");
+            System.out.println(" ====My mane is Daniel====");
             System.out.println(" _____________ ");
             System.out.println(" _____________ ");
             System.out.println(" ======== OPTION MENU ========= ");
