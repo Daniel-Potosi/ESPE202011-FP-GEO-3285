@@ -1,14 +1,14 @@
-package quiz1.sag;
+package ws15.sag;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Quiz1SAG {
+public class WS15SAG {
 
     public static void main(String[] args) {
         // TODO code application logic here
-        List <Student> cjsp = new ArrayList <Student> ();
+          List <Student> cjsp = new ArrayList <Student> ();
         Scanner input = new Scanner(System.in);
         String answer;
         int i=1;
@@ -55,10 +55,11 @@ public class Quiz1SAG {
         }
 
         private Student(int i, String name, Double note) {
+            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
         }
 
         private void setQualification(String qualification) {
+            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
         }
     }
-    
 }
