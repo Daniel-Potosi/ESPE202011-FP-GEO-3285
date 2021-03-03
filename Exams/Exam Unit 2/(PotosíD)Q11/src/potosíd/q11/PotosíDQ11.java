@@ -26,7 +26,7 @@ public class PotosíDQ11 {
                     System.out.println("Element exists at position: " + positionOfElementSearch);
         }
     }
-
+    
     private static int existInArray(int numbers, int numberSearch) {
         int positionOfElementSearch = 0;
         if (positionOfElementSearch == -1) {
