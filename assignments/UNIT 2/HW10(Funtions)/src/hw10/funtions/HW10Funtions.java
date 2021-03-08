@@ -14,6 +14,8 @@ public class HW10Funtions {
         multiplying = nextInt();
         multiplier = nextInt();
         
+        System.out.println("Author: Daniel Potosí");
+        
         //call to multiplyTwoNumbers () function
         result = multiplyTwoNumbers(multiplying, multiplier);
         
