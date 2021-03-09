@@ -14,6 +14,8 @@ public class HW12Recursion {
 
         do {
             System.out.println("        WELCOME TO OUR MENU     ");
+            
+            System.out.println("  Author:  ----Daniel Potosí----  ");
 
             System.out.println(" ======  CHOOSE AN OPTION  ====== ");
             System.out.println("1. ValidID ");

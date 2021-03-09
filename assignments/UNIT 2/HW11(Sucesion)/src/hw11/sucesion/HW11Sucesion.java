@@ -6,6 +6,8 @@ public class HW11Sucesion {
 
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("Author: Daniel Potosí");
+        
         int f = fibonacci(n);
         //enter the succession
         for(int i=0; i<n; i++){
